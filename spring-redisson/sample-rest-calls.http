@@ -1,0 +1,24 @@
+
+### Basic Product Get Product
+GET http://localhost:8080/basics/product/1
+
+### Send PUT request with Product body for update
+PUT http://localhost:8080/basics/product/1
+Content-Type: application/json
+
+{
+  "id": 1,
+  "name": "Ps5",
+  "description": "Digital Edition",
+  "price": 399.00
+}
+
+### Delete all Keys
+POST http://localhost:8080/basics/clear-all
+
+
+### CACHE-PUT - Get Weather data
+GET http://localhost:8080/cache-put/weather/101
+
+### Reactive pipeline - Get Weather data
+GET http://localhost:8080/reactive/weather/102AB
