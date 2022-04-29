@@ -20,4 +20,9 @@ public class ReactiveWeatherController {
     public Mono<Weather> getWeatherInfo(@PathVariable String zip){
         return this.reactiveWeatherService.getWeatherInfo(zip);
     }
+
+    @GetMapping("/weather/ttl/{zip}")
+    public Mono<Weather> getWeatherInfoTTL(@PathVariable String zip){
+        return this.reactiveWeatherService.getWeatherInfoTTL(zip);
+    }
 }

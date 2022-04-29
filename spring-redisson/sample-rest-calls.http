@@ -22,3 +22,6 @@ GET http://localhost:8080/cache-put/weather/101
 
 ### Reactive pipeline - Get Weather data
 GET http://localhost:8080/reactive/weather/102AB
+
+### TTL Reactive pipeline - Get Weather data
+GET http://localhost:8080/reactive/weather/ttl/102AB
