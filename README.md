@@ -5,7 +5,7 @@
 Run docker image
 
 ```
-docker-compose up -d
+docker-compose up -d redis
 ```
 
 To go inside the container

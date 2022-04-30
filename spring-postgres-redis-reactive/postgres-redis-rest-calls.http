@@ -1,0 +1,44 @@
+
+###  Get Product
+GET http://localhost:8080/product/1
+
+### Send PUT request with Product body for update
+PUT http://localhost:8080/product/1
+Content-Type: application/json
+
+{
+  "id": 1,
+  "name": "Ps5",
+  "description": "Digital Edition",
+  "price": 399.00
+}
+
+###FAST
+### Get Product
+GET http://localhost:8080/product/fast/2
+
+### Send PUT request with Product body for update
+PUT http://localhost:8080/product/fast/2
+Content-Type: application/json
+
+{
+  "id": 2,
+  "name": "Xbox",
+  "description": "Series S",
+  "price": 299.00
+}
+
+### MORE FAST
+### Get Product
+GET http://localhost:8080/product/more-fast/3
+
+### Send PUT request with Product body for update
+PUT http://localhost:8080/product/more-fast/3
+Content-Type: application/json
+
+{
+  "id": 3,
+  "name": "Nintendo",
+  "description": "Lite",
+  "price": 199.00
+}

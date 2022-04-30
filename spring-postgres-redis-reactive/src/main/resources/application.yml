@@ -1,0 +1,12 @@
+spring:
+  #Had to add spring jdbc starter for this to work
+  liquibase:
+    change-log: classpath:db-changelog.xml
+    url: jdbc:postgresql://localhost:5432/postgres
+    user: postgres
+    password: postgres
+    enabled: true
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: postgres
